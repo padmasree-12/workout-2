@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Workout2</title>
+        
+    </head>
+    <body>
+    <script>
+  const student = {
+  firstName: "Padma",
+  lastName: "Sree",
+  
+  getfullName: function() {
+    return this.firstName + " " + this.lastName;
+  },
+  setfullName: function() {
+    try{
+        if(typeof student==='string') throw "value is string";
+        if(firstName.length>3) throw "string length is greater than 3";
+    }
+    catch(err)
+    {
+        console.log("Input is"+err);
+    }
+  }
+};
+</script>
+</body>
+</html>
